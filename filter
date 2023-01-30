@@ -1,5 +1,3 @@
-<script>
-
 $(document).ready(function() {
  var $container = $(".grid"); // the container with all the elements to filter inside
  var filters = {}; //should be outside the scope of the filtering function
@@ -84,5 +82,3 @@ $('.masterTooltip').hover(function(){
         .css({ top: mousey, left: mousex })
 });
 });
-
-</script>
